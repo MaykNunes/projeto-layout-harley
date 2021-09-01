@@ -1,0 +1,330 @@
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: antiquewhite;
+}
+
+header {
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.top-header-left,
+.top-header-right {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.top-header-right {
+  justify-content: flex-end;
+}
+
+.top-header-right ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.top-header-right ul li {
+  background: red;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin-left: 14px;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+  width: 18px;
+}
+.top-header-right ul li:hover {
+  background: #c70000;
+}
+
+.top-header-number {
+  background: red;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin-right: 14px;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+
+.top-header-number:hover {
+  background: #c70000;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.menu {
+  display: flex;
+}
+nav li {
+  margin-left: 10px;
+}
+.box {
+  color: white;
+  background-image: url("Assets/img/Harley2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+
+.box:hover {
+  filter: grayscale(100%);
+}
+.box1 {
+  color: #f46e27;
+  padding: 10px;
+  position: absolute;
+  top: 54%;
+  margin: 0 auto;
+  left: 35%;
+  right: auto;
+}
+
+.box1 p {
+  font-size: 60px;
+  font-family: "lobster";
+  background: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  position: relative;
+}
+.botao {
+  position: absolute;
+  top: 76%;
+  left: 90px;
+  margin: 0px;
+  padding: 0px;
+}
+.botao a {
+  display: block;
+  font-weight: bold;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background: #fb9d57;
+  width: 185px;
+  height: 31px;
+  line-height: 29px;
+  border-radius: 10px;
+}
+.box2 p {
+  background-color: black;
+  height: 373px;
+  color: white;
+}
+.box2 img {
+  width: 490px;
+  height: 373px;
+}
+#imagem {
+  float: left;
+}
+.container2 {
+  background: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  width: 1200px;
+  height: 419.28px;
+}
+.tabmenu {
+  display: table;
+  position: relative;
+  left: 52px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box;
+}
+.menu2 {
+  background: chocolate;
+  width: 25%;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+.menu3 {
+  background: chocolate;
+  width: 25%;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+.menu4 {
+  background: chocolate;
+  width: 25%;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+.menu5 {
+  background: chocolate;
+  width: 25%;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+h6 {
+  color: white;
+  font-family: cursive;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: none;
+  margin: 0;
+}
+.container3 {
+  width: 1300px;
+  height: 336.28px;
+  padding: 32px 32px 32px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: red;
+}
+.container4 {
+  width: 1166px;
+  height: 292.28px;
+  text-align: left;
+  position: relative;
+}
+.imagem1 {
+  width: 291.5px;
+  height: 292.8px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.container5 {
+  width: 291.5px;
+  height: 271px;
+  position: relative;
+  left: 292px;
+  top: -334px;
+  height: 293px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.container6 {
+  width: 261.5px;
+  height: 26px;
+  margin-bottom: 0;
+}
+.container7 {
+  width: 261.5px;
+  height: 21px;
+}
+.texto1 .texto2 {
+  display: block;
+  height: 100%;
+}
+.container8 {
+  width: 261.5px;
+  height: 196px;
+}
+.container8 p {
+  color: chocolate;
+  font-family: cursive;
+  font-size: 15px;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: 400;
+}
+.container8 ul {
+  display: block;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  list-style-position: unset;
+}
+.container8 ul > li {
+  margin: 0px 0px 9px;
+}
+
+/* conteudo do menu COMEÇO*/
+
+.menuTeste {
+  background: rgb(56, 56, 56);
+  position: relative;
+}
+
+.section-menu {
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  top: -66px;
+  left: -50%;
+  right: -50%;
+  background: #000;
+}
+
+.section-menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-menu ul li {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-one {
+  display: flex;
+}
+
+.section-one img {
+  width: 100%;
+}
+
+[class*="bloco"] {
+  width: 100%;
+  margin: 15px;
+}
+
+.bloco-segund ul {
+  flex-direction: column;
+}
+.bloco-segund ul li {
+  width: unset;
+  text-align: left;
+  padding: 5px;
+}
